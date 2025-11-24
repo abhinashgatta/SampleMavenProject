@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.testCases.Retry">
+      <class name="com.test.testCases.BrowserLaunchTest">
         <methods>
-          <include name="Test"/>
+          <include name="googleTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.test.testCases.Retry -->
+      </class> <!-- com.test.testCases.BrowserLaunchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

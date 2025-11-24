@@ -8,6 +8,7 @@ import java.net.URL;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -23,6 +24,8 @@ public class GooglePage extends WebDriverBase{
 	
 	public String getGoogleTitel() {
 		return driver.getTitle();
+	
+		
 	}
 	
 	public void checkBrokenLink() throws IOException, URISyntaxException {
@@ -30,7 +33,8 @@ public class GooglePage extends WebDriverBase{
 		System.out.println("Total links:"+links.size());
 		for(int i=0;i<links.size();i++) {
 			WebElement element = links.get(i);
-			String url = element.getAttribute("href");
+			String url = element.getDomAttribute("href");
+//					getAttribute("href");
 			System.out.println("Links:"+url);
 					
 			URI uri = new URI(url);

@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-31T18:27:10 IST" name="Default suite" finished-at="2025-08-31T18:27:10 IST" duration-ms="103">
+  <suite started-at="2025-11-22T17:47:20 IST" name="Default suite" finished-at="2025-11-22T17:47:37 IST" duration-ms="16423">
     <groups>
     </groups>
-    <test started-at="2025-08-31T18:27:10 IST" name="Default test" finished-at="2025-08-31T18:27:10 IST" duration-ms="103">
-      <class name="com.test.testCases.Retry">
-        <test-method signature="Test(java.lang.String,java.lang.String)[pri:0, instance:com.test.testCases.Retry@4afcd809]" started-at="2025-08-31T18:27:10 IST" name="Test" data-provider="readDataFromExcel" finished-at="2025-08-31T18:27:10 IST" duration-ms="25" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-11-22T17:47:20 IST" name="Default test" finished-at="2025-11-22T17:47:37 IST" duration-ms="16423">
+      <class name="com.test.testCases.BrowserLaunchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.testCases.BrowserLaunchTest@3c9754d8]" started-at="2025-11-22T17:47:21 IST" name="setup" finished-at="2025-11-22T17:47:36 IST" duration-ms="15524" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method signature="Test(java.lang.String,java.lang.String)[pri:0, instance:com.test.testCases.Retry@4afcd809]" started-at="2025-08-31T18:27:10 IST" name="Test" data-provider="readDataFromExcel" finished-at="2025-08-31T18:27:10 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method signature="googleTitleTest()[pri:1, instance:com.test.testCases.BrowserLaunchTest@3c9754d8]" started-at="2025-11-22T17:47:36 IST" name="googleTitleTest" finished-at="2025-11-22T17:47:37 IST" duration-ms="481" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method signature="Test(java.lang.String,java.lang.String)[pri:0, instance:com.test.testCases.Retry@4afcd809]" started-at="2025-08-31T18:27:10 IST" name="Test" data-provider="readDataFromExcel" finished-at="2025-08-31T18:27:10 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- googleTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testCases.BrowserLaunchTest@3c9754d8]" started-at="2025-11-22T17:47:37 IST" name="tearDown" finished-at="2025-11-22T17:47:37 IST" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- com.test.testCases.Retry -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testCases.BrowserLaunchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

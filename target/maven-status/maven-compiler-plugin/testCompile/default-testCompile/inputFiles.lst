@@ -1,1 +1,9 @@
-/Users/abhinash/eclipse-workspace/mavenProject/src/test/java/com/test/testCases/BrowserLaunchTest.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/Actions.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/BrokenLinks.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/BrokenLinksInParallelExecution.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/BrowserLaunchTest.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/DataProviderTest.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/DropdownOperations.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/ReadExcelData.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/Retry.java
+/Users/abhinash/eclipse-workspace/SampleMavenProject/src/test/java/com/test/testCases/RetryLogic.java

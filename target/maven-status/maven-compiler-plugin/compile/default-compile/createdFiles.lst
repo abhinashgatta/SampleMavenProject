@@ -1,1 +1,6 @@
+com/test/PageClasses/DropdownClass.class
+com/test/PageClasses/DropdownClass$1.class
+com/test/PageClasses/GooglePage.class
+com/test/Base/WebDriverBase.class
 com/test/Base/Constants.class
+com/test/Base/WebBase.class

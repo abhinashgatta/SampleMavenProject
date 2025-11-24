@@ -19,7 +19,7 @@ public class DropdownClass {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("www.exapmle.com");
+		driver.get("www.example.com");
 		int expectedCnt = 1000;
 		WebElement el = driver.findElement(By.xpath(""));
 		

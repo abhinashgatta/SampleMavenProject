@@ -49,6 +49,8 @@ public class BrokenLinks {
 		System.out.println("All links checked");
 		driver.quit();
 		
+		
+		
 	}
 
 }
